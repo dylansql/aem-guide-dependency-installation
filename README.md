@@ -1,6 +1,7 @@
 # aem-guide-dependency-installation for AEM 6.5 
 
-# Verifying your Version - MAC
+# Installing Dependency via  
+## Verifying your Version - MAC 
   1. Verify Latest Version of Maven
 
 
@@ -14,7 +15,7 @@
 
 # Installing Maven (3.8.6) and Java 
 
-Prerequisite - Homebrew
+## Prerequisite - Homebrew
 
 Homebrew is an free open source package manager that allows you to install and uninstall dependencies. Using homebrew, you will not need to change variables in the bash profile which makes it SUPER convenient. 
 
@@ -23,6 +24,8 @@ To install homebrew click --> [here](https://brew.sh/)
 verify homebrew using: 
 
 brew --version
+
+# Installation
 
 1. Go to the terminal and run home brew command: brew install maven
 
@@ -37,9 +40,11 @@ brew install java (specify version here)
 3. Once both are installed. Run a new terminal and check each version by running:
 
 
-java -version
+  java -version
 
 
-mvn -v 
+  mvn -v 
+  
+4. All Done!
 
 
