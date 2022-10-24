@@ -13,8 +13,10 @@
   ![alt text](https://res.cloudinary.com/ddid7dngp/image/upload/v1666627326/Java_version_11.0.16.1_2022-08-18_LTS_sd9b5u.jpg "Java Version Screenshot")
 
 # Installing Maven
-## Prerequisite - Homebrew
-### To install homebrew click --> here 
+
+Prerequisite - Homebrew
+
+To install homebrew click --> [here](https://brew.sh/)
 
 
 # Installing Java SDK 
