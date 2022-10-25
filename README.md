@@ -114,3 +114,7 @@ brew install java (specify version here)
 ### Verify Maven Installation
 
 1. Run `mvn -version` in the command line
+
+---
+---
+Continue with your [AEM training journey](https://github.com/matthew-acn/aem_guide) 
