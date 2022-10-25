@@ -13,7 +13,7 @@
 
   ![alt text](https://res.cloudinary.com/ddid7dngp/image/upload/v1666627326/Java_version_11.0.16.1_2022-08-18_LTS_sd9b5u.jpg "Java Version Screenshot")
 
-# Installing Maven (3.8.6) and Java 
+# Installing Maven (3.8.6) and Java 11
 
 ## Prerequisite - Homebrew
 
