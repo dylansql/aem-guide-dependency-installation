@@ -47,4 +47,41 @@ brew install java (specify version here)
   
 4. All Done!
 
+---
+---
 
+
+
+# Windows 
+
+
+## Installing Java 11
+
+
+### In order to correctly run an authoring instance of Adobe Experience Manager you must install Java 11
+
+1. Navigate to the [Java SE Downloads] page and scroll down until you see Java 8 and Java 11
+2. Click Java 11
+3. Select your respective operating system and click the x64 download link for JDK 11
+4. You have two options from which to proceed: start the JDK installer by double-clicking the file name in the downloads section || OR ||
+  install JDK 11 in slient mode within the command line: `jdk.exe /s`
+  
+## Set Environmental Variables in Java
+
+### Add Java to System Variables
+
+1. Open the **Start** menu and search for environment variables
+2. Select the result: **Edit the system environment variables**
+3. In the System Properties window, under the **Advanced** tab, click **Environment Variables**
+4. Under the System variables category, select the **Path** variable and click **Edit**
+5. Click **New**
+6. The default path is typically *C:\Program Files\Java\jdk-11.0.16.1\bin*
+
+*You may find your specific path via File Explorer*
+
+### Add JAVA_HOME Variable
+
+1. Again, in the **Environment Variables** window, select **New** under System variables
+2. Input `JAVA_HOME` as the Variable name
+3. In the vlue field, enter the path to your **Java jdk-11** directory *not* the bin 
+4. Confirm the changes and run `java -version` in the command prompt
