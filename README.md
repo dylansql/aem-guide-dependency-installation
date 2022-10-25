@@ -60,7 +60,7 @@ brew install java (specify version here)
 
 ### In order to correctly run an authoring instance of Adobe Experience Manager you must install Java 11
 
-1. Navigate to the [Java SE Downloads] page and scroll down until you see Java 8 and Java 11
+1. Navigate to the [Java SE Downloads](https://www.oracle.com/java/technologies/downloads/#java11-windows) page and scroll down until you see Java 8 and Java 11
 2. Click Java 11
 3. Select your respective operating system and click the x64 download link for JDK 11
 4. You have two options from which to proceed: start the JDK installer by double-clicking the file name in the downloads section || OR ||
@@ -83,5 +83,34 @@ brew install java (specify version here)
 
 1. Again, in the **Environment Variables** window, select **New** under System variables
 2. Input `JAVA_HOME` as the Variable name
-3. In the vlue field, enter the path to your **Java jdk-11** directory *not* the bin 
-4. Confirm the changes and run `java -version` in the command prompt
+3. In the value field, enter the path to your **Java jdk-11** directory *not* the bin 
+4. Confirm the changes
+ 
+
+### Verify Java Instalation
+1. Run `java -version` in the command prompt
+
+---
+## Installing Maven
+
+### Download Maven Zip File and Extract
+1. Navigate to the [Maven Downloads](https://maven.apache.org/download.cgi) page 
+2. Select and download the apache-maven **zip** file
+3. Maven does not have an installation process... so, simply extract the Maven archive
+
+### Add MAVEN_HOME System Variable
+
+1. Recall how you navigated to the **Environment Variables** windows
+2. Once again you will select **New** under System variables
+3. Input `MAVEN_HOME` as the Variable name
+4. Just as you entered in the path value for Java, you will enter the path value for **Maven**
+
+### Add MAVEN_HOME Directory in PATH Variable
+1. Select the **Path** variable under the System variables section
+2. Click the **Edit** button and edit the variable
+3. Once the Edit environment variable opens, click **New**
+4. Input **%MAVEN_HOME%\bin** and save the changes by clicking **OK** in both windows
+
+### Verify Maven Installation
+
+1. Run `mvn -version` in the command line
