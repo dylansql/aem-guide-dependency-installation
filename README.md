@@ -117,4 +117,11 @@ brew install java (specify version here)
 
 ---
 ---
+Resume Training
+---
+Navigate to [AEM Local Environment Guide](https://github.com/matthew-acn/aem_guide/blob/main/AEM.md)
+
+OR
+
+
 Continue with your [AEM training journey](https://github.com/matthew-acn/aem_guide) 
