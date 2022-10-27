@@ -15,7 +15,7 @@
 
 # Installing Maven (3.8.6) and Java 11
 
-## Prerequisite - Homebrew
+## Prerequisite - Homebrew (**macOS Only)**
 
 Homebrew is an free open source package manager that allows you to install and uninstall dependencies. Using homebrew, you will not need to change variables in the bash profile which makes it SUPER convenient. 
 
@@ -25,7 +25,7 @@ verify homebrew using:
 
 brew --version
 
-# Installation
+## Installation (**macOS**)
 
 1. Go to the terminal and run home brew command: brew install maven
 
@@ -46,6 +46,9 @@ brew install java (specify version here)
   mvn -v 
   
 4. All Done!
+
+
+
 
 ---
 ---
